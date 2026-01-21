@@ -1,0 +1,7 @@
+node_modules/
+.wrangler/
+.vscode/
+data.json
+add-domain.js
+check-zone.js
+list-projects.js
