@@ -126,36 +126,36 @@ function App() {
                         />
                         <TeamMember
                             name="Yashika Siwach"
-                            role="Lead Researcher"
-                            skills={['Threat Intel', 'Forensics', 'Malware Analysis']}
+                            role="Director of Outreach"
+                            skills={['Tech Evangelism', 'Public Speaking', 'Strategic Ops', 'Brand Sec']}
                             image="/yashika.png"
                             delay={0.4}
                         />
                         <TeamMember
                             name="Aryan Bharadwaj"
-                            role="Exploit Dev"
-                            skills={['Reverse Eng', 'C++', 'Zero-Day Research']}
+                            role="Lead Ethical Hacker"
+                            skills={['Web Exploitation', 'Red Teaming', 'Bug Bounty', 'OWASP Top 10']}
                             image="/aryan.png"
                             delay={0.6}
                         />
                         <TeamMember
-                            name="Aquib Javed"
-                            role="Infrastructure Sec"
-                            skills={['Cloud Security', 'DevSecOps', 'Hardening']}
-                            image="/aquib.png"
+                            name="Divyanshu Rai"
+                            role="OSINT / Forensics Lead"
+                            skills={['Digital Spectrum', 'Open Source Intel', 'Investigation', 'Data Analysis']}
+                            image="/divyanshu.png"
                             delay={0.8}
                         />
                         <TeamMember
-                            name="Divyanshu Rai"
-                            role="Network Specialist"
-                            skills={['Protocol Analysis', 'Wireless Sec', 'Firewalls']}
-                            image="/divyanshu.png"
+                            name="Aquib Javed"
+                            role="Network Security Architect"
+                            skills={['Infrastructure', 'Cloud Networking', 'Firewalls', 'Hardening']}
+                            image="/aquib.png"
                             delay={1.0}
                         />
                         <TeamMember
                             name="Shivang Kumar"
-                            role="Cryptographer"
-                            skills={['Encryption', 'Blockchain', 'Math', 'Python']}
+                            role="Financial Security Analyst"
+                            skills={['DeFi Security', 'Blockchain Forensics', 'Algo-Trading Sec', 'Fraud Detection']}
                             image="/shivang.png"
                             delay={1.2}
                         />
