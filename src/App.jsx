@@ -11,7 +11,7 @@ const TeamMember = ({ name, role, skills, delay, image }) => (
         className="border border-green-900/50 bg-cyber-gray/50 overflow-hidden relative group hover:border-neon-blue/50 transition-colors"
     >
         <div className="absolute top-0 left-0 w-1 h-full bg-green-500/20 group-hover:bg-neon-blue/50 transition-colors z-10" />
-        <div className="h-64 overflow-hidden relative">
+        <div className="h-80 overflow-hidden relative">
             <div className="absolute inset-0 bg-green-900/20 group-hover:bg-transparent transition-colors z-10 mix-blend-overlay" />
             <img src={image} alt={name} className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-500" />
         </div>
@@ -121,7 +121,7 @@ function App() {
                             name="Utkarsh Pratham"
                             role="Team Leader / Full Stack"
                             skills={['Web Exploitation', 'React', 'Node.js', 'Pentesting']}
-                            image="/utkarsh.png"
+                            image="/utkarsh-new.jpg"
                             delay={0.2}
                         />
                         <TeamMember
