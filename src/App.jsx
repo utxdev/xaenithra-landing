@@ -121,7 +121,7 @@ function App() {
                             name="Utkarsh Pratham"
                             role="Team Leader / Full Stack"
                             skills={['Web Exploitation', 'React', 'Node.js', 'Pentesting']}
-                            image="/utkarsh-v3.png"
+                            image="/utkarsh-v2.png"
                             delay={0.2}
                         />
                         <TeamMember
