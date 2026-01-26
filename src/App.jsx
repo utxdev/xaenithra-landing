@@ -11,9 +11,9 @@ const TeamMember = ({ name, role, skills, delay, image }) => (
         className="border border-green-900/50 bg-cyber-gray/50 overflow-hidden relative group hover:border-neon-blue/50 transition-colors"
     >
         <div className="absolute top-0 left-0 w-1 h-full bg-green-500/20 group-hover:bg-neon-blue/50 transition-colors z-10" />
-        <div className="h-48 overflow-hidden relative">
+        <div className="h-64 overflow-hidden relative">
             <div className="absolute inset-0 bg-green-900/20 group-hover:bg-transparent transition-colors z-10 mix-blend-overlay" />
-            <img src={image} alt={name} className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+            <img src={image} alt={name} className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-500" />
         </div>
         <div className="p-6 relative z-20">
             <div className="flex items-center gap-3 mb-4">
@@ -118,31 +118,31 @@ function App() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <TeamMember
+                            name="Utkarsh Pratham"
+                            role="Team Leader / Full Stack"
+                            skills={['Web Exploitation', 'React', 'Node.js', 'Pentesting']}
+                            image="/utkarsh.png"
+                            delay={0.2}
+                        />
+                        <TeamMember
                             name="Yashika Siwach"
                             role="Lead Researcher"
                             skills={['Threat Intel', 'Forensics', 'Malware Analysis']}
                             image="/yashika.png"
-                            delay={0.2}
+                            delay={0.4}
                         />
                         <TeamMember
                             name="Aryan Bharadwaj"
                             role="Exploit Dev"
                             skills={['Reverse Eng', 'C++', 'Zero-Day Research']}
                             image="/aryan.png"
-                            delay={0.4}
+                            delay={0.6}
                         />
                         <TeamMember
                             name="Aquib Javed"
                             role="Infrastructure Sec"
                             skills={['Cloud Security', 'DevSecOps', 'Hardening']}
                             image="/aquib.png"
-                            delay={0.6}
-                        />
-                        <TeamMember
-                            name="Utkarsh Pratham"
-                            role="Full Stack Security"
-                            skills={['Web Exploitation', 'React', 'Node.js', 'Pentesting']}
-                            image="/utkarsh.png"
                             delay={0.8}
                         />
                         <TeamMember
