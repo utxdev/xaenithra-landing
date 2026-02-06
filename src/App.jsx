@@ -3,6 +3,7 @@ import CyberGridBG from './components/CyberGridBG';
 import Hero from './components/Hero';
 import LiveOps from './components/LiveOps';
 import Arsenal from './components/Arsenal';
+import Operations from './components/Operations';
 import Team from './components/Team';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
                 <Hero />
                 <LiveOps />
                 <Arsenal />
+                <Operations />
                 <Team />
 
                 <footer className="border-t border-white/10 py-8 bg-black relative z-20">
