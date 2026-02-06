@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;600;700&display=swap');
+
 @layer base {
   body {
-    @apply font-mono antialiased;
+    @apply font-mono antialiased bg-void-black text-white;
   }
 }
 
