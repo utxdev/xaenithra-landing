@@ -20,7 +20,7 @@ const Hero = () => {
                 >
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-neon-red/30 bg-neon-red/10 text-neon-red text-xs font-mono tracking-widest mb-6 backdrop-blur-md">
                         <span className="w-2 h-2 rounded-full bg-neon-red animate-pulse"></span>
-                        PROTOCOL: SHADOW-OPS // ACTIVE
+                        PROTOCOL: SHADOW-OPS v4.1 // ACTIVE
                     </div>
 
                     <h1 className="text-6xl md:text-9xl font-display font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white via-gray-200 to-gray-500 mb-6 leading-none relative">
